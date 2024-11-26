@@ -111,7 +111,7 @@ C:\Users\klaus\FastApi\app> poetry shell
 **Acessar via browser a roda "/"**
 Veja que agora conseguimos consumir ApiFast que esta servido HTTP na rota "/" e podemos ver o resultado que é o dicionário "menssage: "Hello World".
 
-- **[Acesso api via browser](http://127.0.0.1:8000/)**
+- **http://127.0.0.1:8000/**
 
 ## ** Uvicorn ** 
 O FastAPI é ótimo para criar APIs, mas não pode disponibilizá-las na rede sozinho, Para podermos acessar essas APIs por um navegador ou de outras aplicações clientes, é necessário um servidor. Uvicorn atua como esse servidor, disponibilizando a API do FastAPI em rede. Isso permite que a API seja acessada de outros dispositivos ou programas. que podemos ver no trecho do log da FastAPI.
@@ -128,8 +128,8 @@ INFO:     Application startup complete.
 
 ## **Acesso à Documentação Automática FastAPI**
 
-- **[Swagger UI](http://127.0.0.1:8000/docs)**
-- **[ReDoc](http://127.0.0.1:8000/redoc)**
+- **http://127.0.0.1:8000/docs**
+- **http://127.0.0.1:8000/redoc**
 
 
 ## **Ferramentas de testes para o desenvolvedor**
